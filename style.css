@@ -6,7 +6,7 @@ body {
 .headercontainer {
     display: flex;
     justify-content: space-between;
-    padding: 12px 10% 0 10%;
+    padding: 12px 255px 0 10%;
     background-color: #1F2937;
     height: 100px;
 }
@@ -20,8 +20,12 @@ body {
 
 .headerlinks {
     display: flex;
-    color: white;
     gap: 12px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
 }
 
 .section1container {
@@ -41,7 +45,7 @@ body {
     display: flex;
     color: #F9FAF8;
     font-size: 48px;
-    font-weight: extra-bold;
+    font-weight: 800;
     margin-bottom: 14px;
 }
 
@@ -69,7 +73,121 @@ body {
     display: flex;
 }
 
-img {
+.mainimg {
     max-width: 420px;
     height: auto;
+}
+
+.section2container {
+    height: 500px;
+}
+
+.section2text {
+    display: flex;
+    margin: 0 20% 0 20%;
+    align-items: center;
+    justify-content: center;
+}
+
+.section2header {
+    margin: 35px 0 40px 0;
+    display: flex;
+    justify-content: center;
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.section2images {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 20% 0 20%;
+}
+
+.smallimg {
+    width: 200px;
+    height: 250px;
+    border-style: solid;
+    border-color: #3882F6;
+    border-width: 4px;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.section2text {
+    color: rgb(58, 58, 58);
+}
+
+.section3container {
+    padding: 160px 150px;
+    background-color: #E5E7EB;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3quote {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1F2937;
+    font-style: italic;
+    font-size: 36px;
+    margin: 0 15% 0 15%;
+}
+
+.section3author {
+    display: flex;
+    font-weight: bold;
+    color: #1F2937;
+    font-size: 20px;
+    flex-direction: row-reverse;
+    padding-right: 250px;
+}
+
+.section4container {
+    height: 350px;
+    background-color: white;
+}
+
+.section4maincontainer {
+    display: flex;
+    margin: 100px 300px;
+    padding: 50px 150px;
+    border-radius: 10px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #3882F6;
+}
+
+.section4title {
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 8px;
+}
+
+.section4text {
+    color: white;
+    font-size: 14px;
+}
+
+.section4button {
+    background-color: #3882F6;
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    border-radius: 8px;
+    border-color: white;
+    border-width: 2px;
+    padding: 4px 26px;
+}
+
+.footercontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #1F2937;
+    padding: 20px;
 }
